@@ -1,0 +1,23 @@
+---
+# Image path values
+training_data_dir: images/training
+classify_data_dir: images/classify
+
+# Image classifications - order is very important. Make sure it matches the
+# order of folders under the training dir. Effectively make sure it's
+# alphabetical
+class_names:
+  - ruffled
+  - smooth
+
+# Model file output paths
+model_path: colony_classifier_model.keras
+best_model_path: best_colony_classifier_model.keras
+
+# Values that affect model training. Tweaking these values can result in
+# OOM issues and require experimentation
+img_width: 1224
+img_height: 1024
+epochs: 60
+batch_size: 4
+learning_rate: 0.0002

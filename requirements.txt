@@ -1,0 +1,5 @@
+tensorflow[and-cuda]
+matplotlib
+numpy
+scikit-learn
+pyyaml
