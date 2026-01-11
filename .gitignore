@@ -212,6 +212,7 @@ __marimo__/
 # Project specific files
 *.xlsx
 *.csv
+*.db
 *.keras
 images/
 .~lock*
